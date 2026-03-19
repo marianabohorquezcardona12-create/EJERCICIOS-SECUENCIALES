@@ -4,7 +4,7 @@ Algoritmo calcula_perimetro_area
 	leer base
 	Escribir "Digite la altura del rectangulo"
 	Leer altura 
-	area = area * altura
+	area = base * altura
 	Perimetro = 2*(base+altura)
 	Escribir " El resultado del area es: ",area 
 	Escribir "Elresultado del perimetro es: ",Perimetro
