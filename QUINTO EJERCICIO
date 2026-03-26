@@ -1,0 +1,11 @@
+//Programa que convierta un valor dado en grados Fahrenheit a grados celsius//
+Proceso ConvertirCelsiusAFahrenheit
+Definir C, F Como Real
+    
+Escribir "Digite los grados Celsius:"
+Leer C
+    
+F <- (C * 9 / 5) + 32
+    
+Escribir "Los grados Fahrenheit son: ", F
+FinProceso
