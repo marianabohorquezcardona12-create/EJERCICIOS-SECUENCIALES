@@ -1,0 +1,9 @@
+//Programa para calcular hipotenusa de un triangulo rectangulo//
+Proceso calcular hipotenusa
+ESCRIBIR "Digite cateto 1:"/
+Leer cateto1
+ESCRIBIR "Digite cateto 2:"
+Leer cateto2
+hipotenusa <- raiz (cateto1^2 + cateto2^2)
+ESCRIBIR "La hipotenusa es:", hipotenusa
+FinProceso
