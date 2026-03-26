@@ -1,0 +1,20 @@
+// Programa para calcular operaciones basicas//
+Proceso OperacionesBasicas
+Definir num1, num2, suma, resta, multiplicacion, division Como Real
+    
+Escribir "Digite el primer número:"
+Leer num1
+
+Escribir "Digite el segundo número:"
+Leer num2
+    
+suma <- num1 + num2
+resta <- num1 - num2
+multiplicacion <- num1 * num2
+division <- num1 / num2
+    
+Escribir "La suma es: ", suma
+Escribir "La resta es: ", resta
+Escribir "La multiplicación es: ", multiplicacion
+Escribir "La división es: ", division
+FinProceso
