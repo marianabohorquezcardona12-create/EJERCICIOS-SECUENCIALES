@@ -1,0 +1,16 @@
+Algoritmo edad
+	// realizar un programa que capture la edad de una persona y determine si es mayor de edad
+	Escribir "buenas"
+	Escribir " Digite su nombre : "
+	Leer nombre
+	Escribir "Digite su edad: "
+	Leer edad1
+	si  edad1 >= 18 Entonces
+		Escribir nombre, "es mayor de edad"
+	SiNo
+		
+		Escribir nombre "menor de edad"
+	FinSi
+	
+	
+FinAlgoritmo
