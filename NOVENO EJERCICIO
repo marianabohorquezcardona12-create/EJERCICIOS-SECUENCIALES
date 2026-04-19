@@ -1,0 +1,13 @@
+//programa para calcular el descuento del 15% en una compra//
+Definir total, descuento, totalFinal Como Real
+    
+Escribir "Digite el total de la compra:"
+Leer total
+    
+descuento <- total * 0.15
+totalFinal <- total - descuento
+    
+Escribir "El descuento es: ", descuento
+Escribir "El total a pagar es: ", totalFinal
+
+FinProceso
