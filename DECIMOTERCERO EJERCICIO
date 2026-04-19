@@ -1,0 +1,13 @@
+//programa que calcula raiz cuadrada y cubica//
+Proceso RaicesNumero
+Definir num, raizCuadrada, raizCubica Como Real
+    
+Escribir "Digite un número:"
+Leer num
+    
+raizCuadrada <- raiz(num)
+raizCubica <- num ^ (1/3)
+
+Escribir "La raíz cuadrada es: ", raizCuadrada
+Escribir "La raíz cúbica es: ", raizCubica
+FinProceso 
