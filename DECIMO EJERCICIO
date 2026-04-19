@@ -1,0 +1,24 @@
+//programa para calcular la nota final//
+Definir n1, n2, n3, promedio, examen, trabajo, notaFinal Como Real
+    
+Escribir "Digite la nota 1:"
+Leer n1
+    
+Escribir "Digite la nota 2:"
+Leer n2
+    
+Escribir "Digite la nota 3:"
+Leer n3
+    
+promedio <- (n1 + n2 + n3) / 3
+    
+Escribir "Digite la nota del examen final:"
+Leer examen
+    
+Escribir "Digite la nota del trabajo final:"
+Leer trabajo
+    
+notaFinal <- (promedio * 55) + (examen * 30) + (trabajo * 15)
+    
+Escribir "La nota final es: ", notaFinal
+FinProceso
