@@ -1,0 +1,22 @@
+//programa que calcula el sueldo y comisiones de un vendedor//
+  Definir sueldoBase, venta1, venta2, venta3 Como Real
+    Definir comision, total Como Real
+    
+    Escribir "Digite el sueldo base:"
+    Leer sueldoBase
+    
+    Escribir "Digite la venta 1:"
+    Leer venta1
+    
+    Escribir "Digite la venta 2:"
+    Leer venta2
+    
+    Escribir "Digite la venta 3:"
+    Leer venta3
+    
+    comision <- (venta1 + venta2 + venta3) '*' 10
+    total <- sueldoBase + comision
+    
+    Escribir "La comisión total es: ", comision
+    Escribir "El total a recibir es: ", total
+FinProceso
