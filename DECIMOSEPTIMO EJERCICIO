@@ -1,0 +1,26 @@
+// Programa horallegadaciclista//
+
+Proceso HoraLlegadaCiclista
+Definir h, m, s, t Como Entero
+Definir totalSeg, hFinal, mFinal, sFinal Como Entero
+    
+Escribir "Digite la hora de salida (HH):"
+Leer h
+    
+Escribir "Digite los minutos (MM):"
+Leer m
+    
+Escribir "Digite los segundos (SS):"
+Leer s
+    
+Escribir "Digite el tiempo de viaje en segundos:"
+Leer t
+
+totalSeg <- (h * 3600) + (m * 60) + s + t
+    
+hFinal <- trunc(totalSeg / 3600)
+mFinal <- trunc((totalSeg % 3600) / 60)
+sFinal <- totalSeg % 60
+    
+Escribir "La hora de llegada es: ", hFinal, ":", mFinal, ":", sFinal
+FinProceso
