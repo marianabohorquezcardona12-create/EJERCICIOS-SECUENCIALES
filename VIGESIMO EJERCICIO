@@ -1,0 +1,26 @@
+//Programa claculadineromonedas//
+
+Proceso CalcularDineroMonedas
+Definir m2e, m1e, m50, m20, m10 Como Entero
+Definir total Como Real
+    
+Escribir "Cantidad de monedas de 2 euros:"
+Leer m2e
+    
+Escribir "Cantidad de monedas de 1 euro:"
+Leer m1e
+    
+Escribir "Cantidad de monedas de 50 centimos:"
+Leer m50
+    
+Escribir "Cantidad de monedas de 20 centimos:"
+Leer m20
+
+Escribir "Cantidad de monedas de 10 centimos:"
+Leer m10
+
+total <- (m2e * 2) + (m1e * 1) + (m50 * 0.5) + (m20 * 0.2) + (m10 * 0.1)
+    
+Escribir "El dinero total es: ", total, " euros"
+
+FinProceso
