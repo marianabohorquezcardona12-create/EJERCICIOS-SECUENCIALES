@@ -1,0 +1,19 @@
+//Programa calficacionestudiantes//
+
+Proceso CalificacionEstudiante
+Definir correctas, incorrectas, blancas, notaFinal Como Entero
+
+Escribir "Digite el número de respuestas correctas:"
+Leer correctas
+    
+Escribir "Digite el número de respuestas incorrectas:"
+Leer incorrectas
+    
+Escribir "Digite el número de respuestas en blanco:"
+Leer blancas
+    
+notaFinal <- (correctas * 5) + (incorrectas * -1) + (blancas * 0)
+    
+Escribir "La nota final es: ", notaFinal
+
+FinProceso
